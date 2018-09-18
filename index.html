@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Joshua J Williams">
+    <title>Home</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/page.css" rel="stylesheet">
+</head>
+<body>
+    <div class="brand">&nbsp;</div> 
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">&nbsp;</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>                    
+                    <li><a href="http://blog.joshjwilliams.com">Blog</a>
+                    </li>                                      
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2>
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1>
+                        <span class="brand-name">a New Home</span>
+                    </h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By <strong>Joshua Williams</strong></small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Build a website <strong>worth visiting</strong>
+                    </h2>
+                    <hr>
+                    <img style="display: none;" class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="introduction picture">
+                    <hr class="visible-xs">
+                    <p>It has been over <span class="strike">a year</span> four and a half years since my main website had been updated to meet a modern look and feel. This should provide a bit of a insight of prior websites, blog posts and other interests of mine. It likely may not stay
+                    this current look for the rest of 2018, but I want to at least have something online after not having a place to put anything.
+                    </p>
+                    <p>
+                        More information can be found on the top menu links, with the "blog" portion of this site having (hopefully)  more up to date information.
+                    </p>
+                    <p>As always, a huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> and <a href="http://www.freerangestock.com/" target="_blank">Free Range Stock</a> for allowing me to use these photos to fill in many of the gaps.</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Joshua Williams 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 10000
+    })
+    </script>
+</body>
+</html>
